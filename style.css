@@ -1,0 +1,84 @@
+body {
+    margin-left: 60px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: "Times New Roman", serif;
+    margin-bottom: 25px;
+}
+
+.rivi {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rivi label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.rivi input[type="text"],
+.rivi input[type="password"] {
+    width: 410px;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+#kayttajaID,
+#salasana {
+    width: 135px !important;
+}
+
+#postinumero {
+    width: 193px !important;
+}
+
+#maa {
+    width: 130px;
+    height: 26px;
+}
+
+.rivi input[type="radio"],
+.rivi input[type="checkbox"] {
+    margin-left: 0;
+}
+
+textarea {
+    width: 445px;
+    height: 195px;
+}
+
+.lisatieto {
+    align-items: flex-start;
+}
+
+.nappi {
+    margin-left: 255px;
+    margin-top: 25px;
+}
+
+button {
+    font-size: 20px;
+}
+
+.rivi span {
+    margin-left: 3px;
+}
+
+.rivi span[id$="Virhe"] {
+    color: red;
+    margin-left: 10px;
+}
+
+#tulos {
+    margin-left: 100px;
+    font-weight: bold;
+}

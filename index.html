@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Rekisteröitymislomake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Rekisteröitymislomake</h1>
+
+    <h3>Siirry kentästä toiseen tab-näppäimellä.</h3>
+
+    <form id="lomake">
+
+        <div class="rivi">
+            <label for="kayttajaID">Käyttäjä ID:</label>
+            <input type="text" id="kayttajaID">
+            <span id="kayttajaIDVirhe"></span>
+        </div>
+
+        <div class="rivi">
+            <label for="salasana">Salasana:</label>
+            <input type="password" id="salasana">
+            <span id="salasanaVirhe"></span>
+        </div>
+
+        <div class="rivi">
+            <label for="nimi">Nimi:</label>
+            <input type="text" id="nimi">
+            <span id="nimiVirhe"></span>
+        </div>
+
+        <div class="rivi">
+            <label for="osoite">Osoite:</label>
+            <input type="text" id="osoite">
+            <span id="osoiteVirhe"></span>
+        </div>
+
+        <div class="rivi">
+            <label for="maa">Maa:</label>
+            <select id="maa">
+                <option value="">(Valitse maa)</option>
+                <option value="Suomi">Suomi</option>
+                <option value="Ruotsi">Ruotsi</option>
+            </select>
+            <span id="maaVirhe"></span>
+        </div>
+
+        <div class="rivi">
+            <label for="postinumero">Postinumero:</label>
+            <input type="text" id="postinumero">
+            <span id="postinumeroVirhe"></span>
+        </div>
+
+        <div class="rivi">
+            <label for="sahkoposti">Sähköposti:</label>
+            <input type="text" id="sahkoposti">
+            <span id="sahkopostiVirhe"></span>
+        </div>
+
+        <div class="rivi">
+            <label>Sukupuoli:</label>
+
+            <input type="radio" name="sukupuoli" value="Mies">
+            <span>Mies</span>
+
+            <input type="radio" name="sukupuoli" value="Nainen">
+            <span>Nainen</span>
+
+            <span id="sukupuoliVirhe"></span>
+        </div>
+
+        <div class="rivi">
+            <label>Kieli:</label>
+
+            <input type="checkbox" name="kieli" value="Suomi" id="suomi">
+            <span>Suomi</span>
+
+            <input type="checkbox" name="kieli" value="Muu kuin suomi" id="muuKieli">
+            <span>Muu kuin suomi</span>
+
+            <span id="kieliVirhe"></span>
+        </div>
+
+        <div class="rivi lisatieto">
+            <label for="lisatiedot">Lisätietoja:</label>
+            <textarea id="lisatiedot"></textarea>
+        </div>
+
+        <div class="nappi">
+            <button type="submit">Lähetä</button>
+        </div>
+
+    </form>
+
+    <p id="tulos"></p>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
