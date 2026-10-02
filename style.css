@@ -1,22 +1,32 @@
 body {
     margin-left: 60px;
     font-family: Arial, sans-serif;
+    color: #7d7e7d;
 }
 
 h1 {
     font-family: "Times New Roman", serif;
     font-size: 36px;
+    color: #ffffff;
+    background-color: #86d6f6;
+    max-width: fit-content;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 h3 {
     font-family: "Times New Roman", serif;
     margin-bottom: 25px;
+    color: #86d6f6;
 }
+
 
 .rivi {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    color: #7d7e7d;
 }
 
 .rivi label {
@@ -48,7 +58,7 @@ h3 {
 
 .rivi input[type="radio"],
 .rivi input[type="checkbox"] {
-    margin-left: 0;
+    margin-left: 5px;
 }
 
 textarea {
@@ -67,6 +77,9 @@ textarea {
 
 button {
     font-size: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #86d6f6;
 }
 
 .rivi span {
